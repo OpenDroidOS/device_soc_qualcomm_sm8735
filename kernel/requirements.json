@@ -1,0 +1,37 @@
+{
+  "format_version": 1,
+  "required_options": {
+    "CONFIG_ANDROID_BINDER_IPC": [
+      "y",
+      "m"
+    ],
+    "CONFIG_SECURITY": [
+      "y"
+    ],
+    "CONFIG_SECURITY_SELINUX": [
+      "y"
+    ],
+    "CONFIG_EXT4_FS": [
+      "y",
+      "m"
+    ],
+    "CONFIG_TMPFS": [
+      "y"
+    ],
+    "CONFIG_PROC_FS": [
+      "y"
+    ],
+    "CONFIG_SYSFS": [
+      "y"
+    ],
+    "CONFIG_ARM64": [
+      "y"
+    ],
+    "CONFIG_64BIT": [
+      "y"
+    ],
+    "CONFIG_FW_LOADER": [
+      "y"
+    ]
+  }
+}
